@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.nav{
+    display: flex;
+    padding: 10px;
+    margin: auto;
+    width: 90%;
+    gap: 15%;
+    justify-content: space-around;
+}
+ul{
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    gap:34px;
+    margin-top: 5px;
+}
+li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li span{
+    padding: 0px 5px;
+}
+.logo:hover,li:hover,svg:hover{
+    color: rgb(137, 136, 136);
+    cursor: pointer;
+}
+.logo{
+    margin-top: 2px;
+    padding: 5px;
+}
+.container{
+    display: grid;
+    background-color: white;
+    height: auto;
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.item{
+    background-color: #f9f9f9;
+    padding-top: 20px;
+    padding-right: 14px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    text-align: center;
+    position: relative;
+    height: 150px;
+}
+.item h3{
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-family: 'segoe ui';
+}
+small{
+    font-size: 13px;
+    font-weight: 400;
+}
+.button{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    font-size: 12px;
+    padding: 8px 15px;
+    background-color: #0eac0c;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #65b963;
+}
+.section{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    padding-top: 15px !important;
+    padding-bottom: 10px !important;
+}
+.first{
+    width: 60%;
+    margin: auto;
+}
+.content{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-family: 'Segoe UI';
+}
+.p1{
+    position: relative;
+    margin-bottom: 20px !important;
+}
+.p1 h1{
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.p1 h1 img{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.p2{
+    position: relative;
+    margin-bottom: 23px !important;
+}
+.p2 h3{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.p3{
+    margin-bottom: 70px !important;
+    font-size: 14px;
+    background-color: #00b6d1;
+    border-width: 0px !important;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: auto;
+    width: fit-content;
+    margin-top: 30px;
+}
+.p3 a{
+    color: white;
+    text-decoration: none;
+    min-height: 48px;
+    min-width: 256px;
+    text-align: center;
+    padding: 12px 20px !important;
+}
+.p3:hover{
+    background-color: #0398af;
+}
+.p4{
+    background-size: 55px auto;
+    background-position: left center;
+    background-image: url("https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png");
+    background-repeat: no-repeat;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-left: 80px !important;
+    padding-right: 0px;
+    display: block;
+}
+.p4 h3{
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 24px;
+    font-weight: 400;
+}
+.p4 h3 small{
+    font-size: 60%;
+}
+.p4 a{
+    text-decoration: none;
+    color: black;
+}
